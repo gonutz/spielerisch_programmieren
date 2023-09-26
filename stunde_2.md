@@ -38,3 +38,18 @@ Bibliothek unter der URL
 
 Diese stellt Funktionen zum Anzeigen von Grafiken, zum Ausgeben von Sound und
 zur Eingabe über Maus und Tastatur zur Verfügung.
+
+Unser Programm starten wir wieder mit
+
+    go run main.go
+
+Alternativ können wir auch "den Ordner starten", was sinnvoll ist wenn wir
+unserem Projekt später mehr als eine Datei hinzufügen wollen. Der Name des
+aktuellen Ordners der Kommandozeile wird über `.` (ein einfacher Punkt)
+angesprochen. Daher verwenden wir den Befehl
+
+    go run .
+
+Als Ergebnis sehen wir ein rotes Quadrat in einem schwarzen Fenster. Das
+Fenster hat den Titel "Recht Eckig". Die innere, schwarze Fläche des Fensters
+ist 800 Pixel breit und 600 Pixel hoch.
