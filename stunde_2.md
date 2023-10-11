@@ -53,3 +53,21 @@ angesprochen. Daher verwenden wir den Befehl
 Als Ergebnis sehen wir ein rotes Quadrat in einem schwarzen Fenster. Das
 Fenster hat den Titel "Recht Eckig". Die innere, schwarze Fläche des Fensters
 ist 800 Pixel breit und 600 Pixel hoch.
+
+Aufgaben
+--------
+
+- Verändere die Zahlen im Programm (800, 600, vier mal 100) um herauszufinden was
+sie bedeuten.
+
+- Versuche die Farbe des Rechtecks zu ändern.
+
+- Versuche mehrere verschiedene Rechtecke auf dem Bildschirm zu zeichnen.
+
+**Wichtig**: Um das Programm zu ändern, wird erst der Quelltext (`main.go`)
+geändert, dann gespeichert und dann noch einmal `go run main.go` aus der
+Kommandozeile aufgerufen.
+
+Hinweis: die Dokumentation der `draw` Bibliothek findest Du unter:
+
+    https://pkg.go.dev/github.com/gonutz/prototype/draw
