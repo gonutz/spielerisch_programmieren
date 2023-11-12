@@ -8,3 +8,5 @@ Dies sind begleitende Materialien für den Kurs `Spielerisch Programmieren`.
 [Stunde 2](stunde_2.md)
 
 [Stunde 3](stunde_3.md)
+
+[Stunde 4](stunde_4.md)
