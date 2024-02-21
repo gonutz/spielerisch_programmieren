@@ -20,54 +20,22 @@ func main() {
 }
 ```
 
-In unserer Kommandozeile (devenv.bat) begeben wir uns mit dem Befehl `cd` in
-den eben angelegten Ordner `graphics`. Wir erstellen ein neues Go Module mit
-
-    go mod init graphics
-
-und anschließend laden wir die im Code importierte Bibliothek herunter mit
-
-    go mod tidy
-
-Im Ordner `graphics` finden wir jetzt zwei neue Dateien `go.mod` und `go.sum`.
-Diese sind von den letzten zwei Befehlen generiert worden und sind notwendig,
-weil wir nicht nur die Standardfunktionen von Go nutzen wollen, sonder die
-Bibliothek unter der URL
-
-    https://github.com/gonutz/prototype
-
-Diese stellt Funktionen zum Anzeigen von Grafiken, zum Ausgeben von Sound und
-zur Eingabe über Maus und Tastatur zur Verfügung.
-
-Unser Programm starten wir wieder mit
-
-    go run main.go
-
-Alternativ können wir auch "den Ordner starten", was sinnvoll ist wenn wir
-unserem Projekt später mehr als eine Datei hinzufügen wollen. Der Name des
-aktuellen Ordners der Kommandozeile wird über `.` (ein einfacher Punkt)
-angesprochen. Daher verwenden wir den Befehl
-
-    go run .
-
 Als Ergebnis sehen wir ein rotes Quadrat in einem schwarzen Fenster. Das
 Fenster hat den Titel "Recht Eckig". Die innere, schwarze Fläche des Fensters
 ist 800 Pixel breit und 600 Pixel hoch.
 
+![Screenshot](stunde_2/screenshot.png)
+
 Aufgaben
 --------
 
-- Verändere die Zahlen im Programm (800, 600, vier mal 100) um herauszufinden was
-sie bedeuten.
+- Verändere die Zahlen im Programm (800, 600, vier mal 100) um herauszufinden
+  was sie bedeuten.
 
 - Versuche die Farbe des Rechtecks zu ändern.
 
 - Versuche mehrere verschiedene Rechtecke auf dem Bildschirm zu zeichnen.
 
-**Wichtig**: Um das Programm zu ändern, wird erst der Quelltext (`main.go`)
-geändert, dann gespeichert und dann noch einmal `go run main.go` aus der
-Kommandozeile aufgerufen.
-
-Hinweis: die Dokumentation der `draw` Bibliothek findest Du unter:
+**Hinweis:** die Dokumentation der `draw` Bibliothek findest Du unter:
 
     https://pkg.go.dev/github.com/gonutz/prototype/draw
