@@ -1,7 +1,9 @@
-Spielerisch Programmieren
-=========================
+Spielerisch Programmieren Lernen
+================================
 
-Dies sind begleitende Materialien für den Kurs `Spielerisch Programmieren`.
+Dies sind begleitende Materialien für den Kurs `Spielerisch Programmieren Lernen`.
+
+[Stunde 0](stunde_0.md) (Installation)
 
 [Stunde 1](stunde_1.md)
 
